@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<!-- © 2026 LigeroNex. All rights reserved. Proprietary: no licence is granted to copy, modify or reuse this file. -->
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="theme-color" content="#03142e" />
+<title>NexGuard — security testing for AI agents | LigeroNex</title>
+<meta name="description" content="NexGuard tests AI agents for unsafe behaviour in a sealed sandbox, shows the evidence for every finding and proves the fix holds. An interactive preview with fictional data." />
+<link rel="canonical" href="https://demo.nexguard.ligeronex.com/" />
+<meta property="og:title" content="NexGuard — security testing for AI agents" />
+<meta property="og:description" content="Take an AI agent from blocked to signed off: an interactive preview of NexGuard by LigeroNex." />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://demo.nexguard.ligeronex.com/" />
+<meta property="og:image" content="https://demo.nexguard.ligeronex.com/assets/images/web/share-card.jpg" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:image:alt" content="LigeroNex — Light. Intelligence. Beyond." />
+<meta property="og:site_name" content="LigeroNex" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="NexGuard — security testing for AI agents" />
+<meta name="twitter:description" content="Take an AI agent from blocked to signed off: an interactive preview of NexGuard by LigeroNex." />
+<meta name="twitter:image" content="https://demo.nexguard.ligeronex.com/assets/images/web/share-card.jpg" />
+<link rel="icon" type="image/png" sizes="32x32" href="assets/images/web/favicon-32.png" />
+<link rel="apple-touch-icon" sizes="180x180" href="assets/images/web/apple-touch-icon.png" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Manrope:wght@500;600;700;800&family=Michroma&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="site.3da2afa8ba.css">
+</head>
+<body id="top">
+<header class="nav-wrap">
+<nav class="nav container" aria-label="Primary navigation">
+<a class="brand" href="https://www.ligeronex.com/" aria-label="LigeroNex: visit ligeronex.com">
+<img class="brand-logo" src="assets/images/web/ligeronex-mark.jpg" alt="">
+<span class="brand-word"><span class="bw-ligero">Ligero</span><span class="bw-nex">Nex</span></span>
+</a>
+<div class="nav-links">
+<a href="#how">How it works</a>
+<a href="#demo">Demo</a>
+<a href="#safeguards">Safeguards</a>
+<a href="#pilot">Pilot</a>
+<a href="#contact">Contact</a>
+</div>
+<button class="menu" type="button" aria-label="Open navigation" aria-expanded="false">☰</button>
+</nav>
+</header>
+<main>
+<section class="hero">
+<div class="container hero-grid">
+<div class="hero-copy reveal">
+<p class="eyebrow"><i></i>NexGuard by LigeroNex</p>
+<h1>Prove what your AI agent <span>can be made to do.</span></h1>
+<p class="hero-lead">NexGuard attacks your AI agents in a sealed sandbox, shows the evidence for every finding and proves the fix holds, so your security team can sign them off. Everything below is a working preview with fictional data.</p>
+<div class="hero-actions">
+<a class="button primary" href="#demo">Try the demo <span>↓</span></a>
+<a class="button secondary" href="#how">How it works</a>
+</div>
+<ul class="hero-chips"><li>Interactive preview</li><li>Fictional data</li><li>No sign-up needed</li></ul>
+</div>
+<div class="hero-visual reveal" aria-hidden="true">
+<div class="hv-card">
+<div class="hv-top"><div><small>Agent under test</small><b>Claims Assistant <code>v1.8</code></b></div><span class="hv-chip ready">Ready for sign-off</span></div>
+<div class="hv-steps"><span>Authorised</span><span>Mapped</span><span>Tested</span><span>Fixed</span><span>Retested</span><span class="now">Sign-off</span></div>
+<div class="hv-tr hv-th"><span>ID</span><span>Finding</span><span>Status</span></div>
+<div class="hv-tr"><code>F-1</code><span><b>Decoy record emailed outside</b><small><i class="high">High</i> · reproduced 5 of 5, now 0 of 5</small></span><span class="hv-chip ok">Verified fixed</span></div>
+<div class="hv-tr"><code>F-2</code><span><b>Refund above the approval limit</b><small><i class="high">High</i> · reproduced 4 of 5, now 0 of 5</small></span><span class="hv-chip ok">Verified fixed</span></div>
+<div class="hv-tr"><code>F-3</code><span><b>Read claims outside its region</b><small><i class="med">Medium</i> · reproduced 5 of 5, now 0 of 5</small></span><span class="hv-chip ok">Verified fixed</span></div>
+<div class="hv-foot"><span><svg class="ic"><use href="assets/icons/icons.svg#lock"></use></svg>Sealed sandbox</span><span><svg class="ic"><use href="assets/icons/icons.svg#box"></use></svg>0 escapes</span><span><svg class="ic"><use href="assets/icons/icons.svg#filecheck"></use></svg>Evidence pack ready</span></div>
+</div>
+</div>
+</div>
+</section>
+<section class="section light" id="problem">
+<div class="container">
+<div class="sec-head reveal">
+<p class="eyebrow dark"><i></i>The problem</p>
+<h2>AI agents are stuck at <span>security sign-off.</span></h2>
+<p>An agent that can read records, send email or move money is more than a chatbot. Security teams are asked to approve it with no repeatable way to show what it can be made to do.</p>
+</div>
+<div class="cards-3">
+<article class="card reveal"><span class="card-ic"><svg class="ic"><use href="assets/icons/icons.svg#agent"></use></svg></span><h3>Agents act, not just answer</h3><p>They call tools, read records and take actions. A failure is something done, not a wrong sentence.</p></article>
+<article class="card reveal"><span class="card-ic"><svg class="ic"><use href="assets/icons/icons.svg#search"></use></svg></span><h3>Ordinary tests miss it</h3><p>Application security tests and model benchmarks do not cover how a model, its prompts and its tools behave together.</p></article>
+<article class="card reveal"><span class="card-ic"><svg class="ic"><use href="assets/icons/icons.svg#refresh"></use></svg></span><h3>Every change reopens the question</h3><p>A new model version, prompt, tool or permission can undo last month's approval.</p></article>
+</div>
+</div>
+</section>
+<section class="section white" id="how">
+<div class="container">
+<div class="sec-head reveal">
+<p class="eyebrow dark"><i></i>How it works</p>
+<h2>From blocked to signed off, <span>in six steps.</span></h2>
+</div>
+<ol class="steps">
+<li class="reveal"><b>01</b><h3>Authorise</h3><p>Testing starts with written permission and an agreed scope. No permission, no test.</p></li>
+<li class="reveal"><b>02</b><h3>Map</h3><p>List each agent's tools, permissions and the data it can reach.</p></li>
+<li class="reveal"><b>03</b><h3>Attack safely</h3><p>Run versioned attack scenarios in a sealed sandbox, each several times.</p></li>
+<li class="reveal"><b>04</b><h3>Show the evidence</h3><p>Every finding links to the exact steps, versions and run that produced it, and cites the public framework entries it falls under.</p></li>
+<li class="reveal"><b>05</b><h3>Fix</h3><p>Your team tightens the tool, prompt or permission. People decide the severity.</p></li>
+<li class="reveal"><b>06</b><h3>Retest and sign off</h3><p>Re-run to prove the fix holds, then give the approver one evidence pack.</p></li>
+</ol>
+</div>
+</section>
+<section class="section light demo-section" id="demo">
+<div class="container">
+<div class="sec-head reveal">
+<p class="eyebrow dark"><i></i>Try it yourself</p>
+<h2>Take one agent from blocked <span>to signed off.</span></h2>
+<p>Press <b>Run test set</b>, open a finding, record the fix and retest. It takes about two minutes. The company, the people and the results are fictional.</p>
+</div>
+<div class="demo-hint"><span><svg class="ic" aria-hidden="true"><use href="assets/icons/icons.svg#sparkle"></use></svg>This window is interactive. Click the menu, the cards and the buttons.</span><button type="button" class="demo-full" data-focus-demo><svg class="ic" aria-hidden="true"><use href="assets/icons/icons.svg#expand"></use></svg>Open full screen</button></div>
+<div class="exp-workspace">
+<div class="exp-window" id="exp-window"></div>
+</div>
+</div>
+</section>
+<section class="section white" id="design">
+<div class="container">
+<div class="sec-head reveal">
+<p class="eyebrow dark"><i></i>How it is designed</p>
+<h2>Built for the person <span>who has to say yes.</span></h2>
+<p>NexGuard is designed around four ideas.</p>
+</div>
+<div class="cards-4">
+<article class="card reveal"><span class="card-ic"><svg class="ic"><use href="assets/icons/icons.svg#filecheck"></use></svg></span><h3>Evidence an approver can use</h3><p>Scope, versions tested, every step of a failure and the history of its fix, in one pack.</p></article>
+<article class="card reveal"><span class="card-ic"><svg class="ic"><use href="assets/icons/icons.svg#check"></use></svg></span><h3>The same answer every time</h3><p>The first release uses four fixed checks over the recorded steps, not an AI opinion, so a result can be repeated.</p></article>
+<article class="card reveal"><span class="card-ic"><svg class="ic"><use href="assets/icons/icons.svg#layers"></use></svg></span><h3>Tests chosen for your agent</h3><p>Scenarios are picked from what the agent can actually reach, and what was not covered is stated openly.</p></article>
+<article class="card reveal"><span class="card-ic"><svg class="ic"><use href="assets/icons/icons.svg#lock"></use></svg></span><h3>Contained by design</h3><p>Attacks run only in an isolated sandbox, with decoy data and mocked tools. Zero escapes is a release rule.</p></article>
+</div>
+<div class="status-note reveal"><svg class="ic" aria-hidden="true"><use href="assets/icons/icons.svg#grid"></use></svg><p><b>Findings in the vocabulary your team already uses.</b> Scenarios and findings cite the entries they fall under in the OWASP Top 10 for LLM Applications 2026, the OWASP Top 10 for Agentic Applications 2026 and MITRE ATLAS 5.6.0, each pinned to its edition because the numbering changes between editions. A coverage view lists what was exercised and, just as plainly, what was not. There is no score. For the test as a whole, the evidence pack cites NIST AI RMF 1.0 and ETSI EN 304 223, the European Standard that grew out of the UK AI Cyber Security Code of Practice. <small>OWASP, MITRE ATLAS, NIST and ETSI are named for reference; NexGuard is not affiliated with or endorsed by them.</small></p></div>
+</div>
+</section>
+<section class="section dark" id="safeguards">
+<div class="container">
+<div class="sec-head on-dark reveal">
+<p class="eyebrow"><i></i>Safeguards</p>
+<h2>Hard limits, <span>not settings.</span></h2>
+<p>A product that attacks AI agents has to be safe to point at your own. These limits cannot be switched off.</p>
+</div>
+<ul class="limits">
+<li class="reveal"><svg class="ic" aria-hidden="true"><use href="assets/icons/icons.svg#signoff"></use></svg><div><b>Permission first</b><span>No test without written authorisation from the system owner and an agreed scope.</span></div></li>
+<li class="reveal"><svg class="ic" aria-hidden="true"><use href="assets/icons/icons.svg#box"></use></svg><div><b>Sandbox only</b><span>No attack runs outside an isolated sandbox that is destroyed afterwards.</span></div></li>
+<li class="reveal"><svg class="ic" aria-hidden="true"><use href="assets/icons/icons.svg#card"></use></svg><div><b>Nothing real happens</b><span>Payments, messages and deletions are simulated with mocked tools.</span></div></li>
+<li class="reveal"><svg class="ic" aria-hidden="true"><use href="assets/icons/icons.svg#tag"></use></svg><div><b>Decoy data</b><span>Tests use decoy and synthetic data, not real customer data.</span></div></li>
+<li class="reveal"><svg class="ic" aria-hidden="true"><use href="assets/icons/icons.svg#lock"></use></svg><div><b>Yours alone</b><span>Findings and attack detail are never shared between customers.</span></div></li>
+<li class="reveal"><svg class="ic" aria-hidden="true"><use href="assets/icons/icons.svg#agent"></use></svg><div><b>People decide</b><span>Severity, accepting a risk and sign-off are decisions for named people.</span></div></li>
+</ul>
+</div>
+</section>
+<section class="section light" id="pilot">
+<div class="container">
+<div class="sec-head reveal">
+<p class="eyebrow dark"><i></i>Working with us</p>
+<h2>What a pilot <span>looks like.</span></h2>
+<p>Small on purpose: one kind of agent, one environment, one scenario set. What counts as success is agreed in writing before it starts.</p>
+</div>
+<div class="cards-3">
+<article class="card reveal"><b class="card-num">01</b><h3>How much it catches</h3><p>The share of the agreed scenarios where a real weakness is detected.</p><small>Measured against the agreed scenario set</small></article>
+<article class="card reveal"><b class="card-num">02</b><h3>How few false alarms</h3><p>The rate of findings your own team judges not to be real problems.</p><small>Judged by your security team</small></article>
+<article class="card reveal"><b class="card-num">03</b><h3>How fast it gets fixed</h3><p>The time from a finding to a fix that is proven by retest.</p><small>Compared with your process today</small></article>
+</div>
+<div class="status-note reveal"><svg class="ic" aria-hidden="true"><use href="assets/icons/icons.svg#flask"></use></svg><p><b>Where NexGuard is today.</b> NexGuard is in development and we are looking for a first design partner. This site is a preview of the intended product, and every figure in it is illustrative. Whichever way a pilot goes, you keep the evidence pack, the results and a written list of what was not covered.</p></div>
+</div>
+</section>
+<section class="section cta" id="contact">
+<div class="container cta-inner reveal">
+<p class="eyebrow"><i></i>Next step</p>
+<h2>Have an agent stuck at sign-off?</h2>
+<p>Tell us about it. We will walk you through the preview and what a pilot could look like.</p>
+<a class="button primary" href="mailto:info@ligeronex.com">Talk to LigeroNex <span>→</span></a>
+<small>info@ligeronex.com</small>
+</div>
+</section>
+</main>
+<footer><div class="container footer"><a class="brand" href="#top"><img class="brand-logo" src="assets/images/web/ligeronex-mark.jpg" alt=""><span class="brand-word"><span class="bw-ligero">Ligero</span><span class="bw-nex">Nex</span></span></a><span>© 2026 LigeroNex. NexGuard product preview.</span><a href="#top">Back to top ↑</a></div></footer>
+<script src="app.68bf6e0cc1.js"></script>
+</body>
+</html>
